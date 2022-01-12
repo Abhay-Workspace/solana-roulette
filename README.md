@@ -29,7 +29,6 @@ console.log("My first NodeJS application");
 `console.log()` function prints the contents passed in the terminal. To run the application, we can use the following command: 
 > node index.js 
 
-![Initial Setup](/learn_src/learn_assets/1_setup.png)
 
 Congratulations, you have now successfully run your first NodeJS application. 
 
@@ -70,7 +69,6 @@ console.log(userWallet);
 ```
 It will be printing the Public Key and the Secret Key for the generated wallet(in Uint8 Array format). 
 
-![Wallet Generation](/learn_src/learn_assets/2_wallet_generation.png)
 
 Store it in variables(`userPublicKey` & `userSecretKey`), if you don't want to create a new `userWallet` everytime during the execution of the application. As we can generate a wallet instance from the secret key as:
 ```sh
@@ -192,9 +190,6 @@ const {getWalletBalance,transferSOL,airDropSol}=require("./solana");
 
 In the terminal, change your directory to the application folder and then run command `node index.js`. It will be asking a list of questions and you can guess the number at the end.
 
-![Losing Game](/learn_src/learn_assets/3_failed_game.png)
-
-![Winning Game](/learn_src/learn_assets/4_successful_game.png)
 
 ## Conclusion
 
